@@ -20,7 +20,7 @@ import org.firstinspires.ftc.teamcode.ExampleCode.MyBotHardwareSetup;
  * Comment out the @Disabled line to add this opmode to the Driver Station OpMode list
  */
 
-@TeleOp(name="Example: TeleOp", group="Examples")  // @Autonomous(...) is the other common choice
+@TeleOp(name="Example: TestHardwareTeleOp", group="Examples")  // @Autonomous(...) is the other common choice
 @Disabled
 public class TestHardwareTeleOp extends LinearOpMode {
 

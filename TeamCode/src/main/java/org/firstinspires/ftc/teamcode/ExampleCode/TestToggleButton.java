@@ -42,7 +42,7 @@ import com.qualcomm.robotcore.util.ElapsedTime;
  */
 
 
-@TeleOp(name="Toggle2", group="Examples")  // @Autonomous(...) is the other common choice
+@TeleOp(name="TestToggleButton", group="Examples")  // @Autonomous(...) is the other common choice
 @Disabled
 public class TestToggleButton extends LinearOpMode {
 

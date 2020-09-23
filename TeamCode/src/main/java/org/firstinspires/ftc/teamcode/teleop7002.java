@@ -52,7 +52,7 @@ import org.firstinspires.ftc.teamcode.ExampleCode.MyBotHardwareSetup;
 
 
 @TeleOp(name="teleop7002", group="Examples")  // @Autonomous(...) is the other common choice
-@Disabled
+//@Disabled
 public class teleop7002 extends LinearOpMode {
     private ElapsedTime runtime = new ElapsedTime();
 
@@ -93,12 +93,12 @@ public class teleop7002 extends LinearOpMode {
             //servo commands
             if(gamepad1.a) //button 'a' will open
             {
-                robot.servoHandR.setPosition(robot.OPEN);
+                robot.servoHandR.setPosition(robot.CLOSED);
                 robot.servoHandL.setPosition(robot.OPEN);
             }
             else if (gamepad1.b) //button 'b' will close
             {
-                robot.servoHandR.setPosition(robot.CLOSED);
+                robot.servoHandR.setPosition(robot.OPEN);
                 robot.servoHandL.setPosition(robot.CLOSED);
             }
 

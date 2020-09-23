@@ -71,7 +71,7 @@ public class Bot7002HardwareSetup {
 
         // Set the drive motor directions:
         motorLeft.setDirection(DcMotor.Direction.FORWARD); // Set to REVERSE if using AndyMark motors
-        motorRight.setDirection(DcMotor.Direction.REVERSE);// Set to FORWARD if using AndyMark motors
+        motorRight.setDirection(DcMotor.Direction.FORWARD);// Set to FORWARD if using AndyMark motors
         motorArm.setDirection(DcMotor.Direction.FORWARD); // Can change based on motor configuration
 
         //Keep the motors from moving during initialize.
@@ -93,7 +93,7 @@ public class Bot7002HardwareSetup {
         servoHandR = hwMap.servo.get("servoHandR");
 
         //Set servo hand grippers to open position.
-        servoHandL.setPosition(OPEN);
+        servoHandL.setPosition(CLOSED);
         servoHandR.setPosition(OPEN);
 
         //Continous Rotation Servo
